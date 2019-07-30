@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 
 import { TableModule } from 'primeng/table';
 import { OverlayPanelModule } from 'primeng/overlaypanel';
-import { ChartModule } from 'primeng/chart';
+
 import { GalleriaModule } from 'primeng/galleria';
 import { VirtualScrollerModule } from 'primeng/virtualscroller';
 import { CaptchaModule } from 'primeng/captcha';
@@ -37,9 +37,9 @@ import { ConfirmDialogModule } from 'primeng/confirmdialog';
 import { ContextMenuModule } from 'primeng/contextmenu';
 import { DataViewModule } from 'primeng/dataview';
 import { DialogModule } from 'primeng/dialog';
-import { EditorModule } from 'primeng/editor';
+
 import { FieldsetModule } from 'primeng/fieldset';
-import { FullCalendarModule } from 'primeng/fullcalendar';
+
 import { GrowlModule } from 'primeng/growl';
 import { InplaceModule } from 'primeng/inplace';
 import { InputMaskModule } from 'primeng/inputmask';
@@ -53,7 +53,7 @@ import { MessageModule } from 'primeng/message';
 import { MessagesModule } from 'primeng/messages';
 import { MultiSelectModule } from 'primeng/multiselect';
 import { OrderListModule } from 'primeng/orderlist';
-import { OrganizationChartModule } from 'primeng/organizationchart';
+
 import { PaginatorModule } from 'primeng/paginator';
 import { PanelModule } from 'primeng/panel';
 import { PasswordModule } from 'primeng/password';
@@ -80,7 +80,7 @@ import { TreeTableModule } from 'primeng/treetable';
         SidebarModule,
         TabViewModule,
         OverlayPanelModule,
-        ChartModule,
+
         GalleriaModule,
         VirtualScrollerModule,
         CaptchaModule,
@@ -112,9 +112,8 @@ import { TreeTableModule } from 'primeng/treetable';
         ContextMenuModule,
         DataViewModule,
         DialogModule,
-        EditorModule,
+
         FieldsetModule,
-        FullCalendarModule,
         GrowlModule,
         InplaceModule,
         InputMaskModule,
@@ -128,7 +127,6 @@ import { TreeTableModule } from 'primeng/treetable';
         MessagesModule,
         MultiSelectModule,
         OrderListModule,
-        OrganizationChartModule,
         PaginatorModule,
         PanelModule,
         PasswordModule,
@@ -153,7 +151,6 @@ import { TreeTableModule } from 'primeng/treetable';
         SidebarModule,
         TabViewModule,
         OverlayPanelModule,
-        ChartModule,
         GalleriaModule,
         VirtualScrollerModule,
         CaptchaModule,
@@ -185,9 +182,8 @@ import { TreeTableModule } from 'primeng/treetable';
         ContextMenuModule,
         DataViewModule,
         DialogModule,
-        EditorModule,
+
         FieldsetModule,
-        FullCalendarModule,
         GrowlModule,
         InplaceModule,
         InputMaskModule,
@@ -201,7 +197,6 @@ import { TreeTableModule } from 'primeng/treetable';
         MessagesModule,
         MultiSelectModule,
         OrderListModule,
-        OrganizationChartModule,
         PaginatorModule,
         PanelModule,
         PasswordModule,
@@ -220,6 +215,7 @@ import { TreeTableModule } from 'primeng/treetable';
         ToggleButtonModule,
         ToolbarModule,
         TreeTableModule
-    ]
+    ],
+    providers: []
 })
 export class PrimeNGModule {}
